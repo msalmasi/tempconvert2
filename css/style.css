@@ -1,0 +1,16 @@
+#clickme {
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	border-radius: 50%;
+	color: white;
+	font: 24px normal Arial;
+	line-height: 400px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tempinputs {
+	float: left;
+}

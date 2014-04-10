@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+  	<div id="header">
+  		<h1>Temperature Conversion</h1>
+  	</div>
+
+    <div id="thermometer">
+      <img src="img/thermometer.jpg">
+    </div>
+
+    <div id="convert">
+      <h2>Enter temperature here</h2>
+        <div class="tempinputs">
+          <input name="Fahrenheit" id="Fahrenheit" onkeyup="covert("f")">
+          <h3>F&deg;</h3>
+        </div>  
+
+        <div class="tempinputs">
+          <input name="Celsius" id="Celsius" onkeyup="covert("c")">
+          <h3>C&deg;</h3>
+        </div>
+
+        <div class="tempinputs">
+          <input name="Kelvin" id="Kelvin" onkeyup="covert("k")">
+          <h3>K&deg;</h3>
+        </div>        
+
+    <script type="text/javascript" src="js/project.js">
+    </script>
+  </body>
+</html>
